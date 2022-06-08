@@ -95,7 +95,7 @@ class SecretManager {
         }
     }
 
-    async getToken(secretName) {
+    async getSecret(secretName) {
         try {
             const [secret] = await this.getSecrets(`name:${secretName}`);
             if (secret) {
@@ -120,7 +120,7 @@ class SecretManager {
         }
     }
 
-    async writeToken(data, secretName) {
+    async writeSecret(data, secretName) {
         try {
             const [secret] = await this.getSecrets(`name:${secretName}`);
             if (secret) {
