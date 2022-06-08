@@ -1,0 +1,15 @@
+{
+  "name": "secret-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ikboljon Zokirov",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^4.0.0"
+  }
+}
